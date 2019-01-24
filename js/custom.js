@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2017 
+
 ------------------------------------------------------------------
 
 
@@ -19,7 +19,7 @@ Copyright (c) 2017
 				return;
 			}
 
-			/*-------------- AcupunctureClinic Functions Calling ---------------------------------------------------
+			/*-------------- zvonok ---------------------------------------------------
 			------------------------------------------------------------------------------------------------*/
 			this.RTL();
 			this.Magnific_popup();
@@ -29,7 +29,7 @@ Copyright (c) 2017
 			
 		},
 		
-		/*-------------- AcupunctureClinic Functions definition ---------------------------------------------------
+		/*-------------- dezvonok ---------------------------------------------------
 		---------------------------------------------------------------------------------------------------*/
 		RTL: function () {
 			// On Right-to-left(RTL) add class 
@@ -42,7 +42,7 @@ Copyright (c) 2017
 			// new WOW().init()
 		// },
 		
-		//counter on home page
+		//home page
 		ConutTo: function(){
 		if($('.timer').length > 0){	
 			  $('.timer').appear(function() {
@@ -50,7 +50,7 @@ Copyright (c) 2017
 				});
 		}
 		},
-		//Testimonial slider on home page
+		//otziv
 		 TestimonialSlider: function(){
 			 if($('.ac_testimonial_slider .owl-carousel').length > 0){		
 					$('.ac_testimonial_slider .owl-carousel').owlCarousel({
@@ -66,7 +66,7 @@ Copyright (c) 2017
 					});
 			 }
 		},
-		//Magnific Popuo
+		//vsplivayshee okno
 		Magnific_popup: function() {
             $('.ac_hovericon_div .zoom_icon').magnificPopup({
 				type: 'image',
@@ -82,7 +82,7 @@ Copyright (c) 2017
             });
         },
 	
-		//contact form submition
+		//otpravka contactnoy formi
 		ContactFormSubmit: function(){
 			if($('#send_btn').length > 0){	
 				$("#send_btn").on("click", function() {
@@ -130,15 +130,15 @@ Copyright (c) 2017
 
 	AcupunctureClinic.init();
 
-	// Load Event
+	// sob
 	// Loader js
 	$(window).on('load', function() {
 		jQuery("#ac_preloader_box").fadeOut();
 		jQuery("#ac_preloader_wrapper").delay(350).fadeOut("slow");
 	});
 
-	// Scroll Event
-	// fixed menu
+	// Scroll 
+	// fixed 
 	$(window).on('scroll', function () {
 	     if ($(this).scrollTop() > 300) {
                  $(".ac_mainheader").addClass("ac_fixed");
